@@ -1,0 +1,35 @@
+{
+  "name": "ppz.vscode.mysql",
+  "version": "1.0.0",
+  "description": "PPz.vscode 的 MySQL 适配器",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DB-GUI/vscode.mysql.git"
+  },
+  "keywords": [
+    "ppz"
+  ],
+  "author": "ppz",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/DB-GUI/vscode.mysql/issues"
+  },
+  "homepage": "https://github.com/DB-GUI/vscode.mysql#readme",
+  "displayName": "PPz.MySQL",
+  "publisher": "ppz",
+  "icon": "./icon.png",
+  "engines": {
+    "vscode": "^1.47.3"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "dependencies": {
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@ppzp/dbgui_types": "file:../types/ppzp-dbgui_types-1.0.0.tgz",
+    "@types/vscode": "^1.82.0"
+  }
+}
